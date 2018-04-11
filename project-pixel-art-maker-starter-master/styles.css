@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background: black;
+    -webkit-text-stroke-width: 0.5px;
+ -webkit-text-stroke-color: red;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+
+    font-size: 72px;
+     background: linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1em;
+}
+
+h2 {
+    margin: 3em 0 1em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    font-family: 'Press Start 2P', cursive;
+  font-size: 1em;
+  font-weight: 900;
+    width: 6em;
+    height: 2em;
+}
+input[type=submit]{
+  font-family: 'Press Start 2P', cursive;
+font-size: 1em;
+font-weight: 900;
+  width: 7em;
+  height: 2em;
+}
